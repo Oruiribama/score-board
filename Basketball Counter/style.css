@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    font-family: verdana;
+    background: gold;
+}
+
+
+h3{
+  text-shadow: 0px 0px 2px #000001;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: darkblue;
+    width: 600px;
+    height: 550px;
+    margin: 50px auto;
+    color: white;
+    border: 3px solid #9aabd8;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.first-div {
+  width: 155px;
+  height: 120px;
+  background: #080001;
+  border-radius: 5px;
+}
+
+
+
+
+ .btn-container{
+  display: flex;
+  margin: 25px auto;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  }
+
+
+.btn{
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 28px;
+  color: #9aabd8;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+
+  p{
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  color: #f94f6d;
+  font-weight: 400;
+  font-size: 90px;
+  font-style: normal;
+  line-height: 127px;
+  text-align: center;
+}
+
+.refresh-button{
+  font-family: cursive;
+  width: 80px;
+  height: 40px;
+  border: 2px solid #080001;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  margin-top: 500px;
+
+}

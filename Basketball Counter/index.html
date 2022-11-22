@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Basketball Counter</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <h3>HOME</h3>
+      <div class="first-div">
+         <p id="tt">0</p>
+
+      </div>
+      <div class="btn-container">
+        <button class="btn" onClick="increaseByOne()">+1</button>
+        <button class="btn" onClick="increaseByTwo()">+2</button>
+        <button class="btn" onClick="increaseByThree()">+3</button>
+      </div>
+    </div>
+    <div>
+      <h3>GUEST</h3>
+      <div class="first-div">
+        <p id="guest">0</p>
+      </div>
+      <div class="btn-container">
+        <button class="btn" onClick="guestByOne()">+1</button>
+        <button class="btn" onClick="guestByTwo()">+2</button>
+        <button class="btn" onClick="guestByThree()">+3</button>
+      </div>
+    </div>
+    <button class="refresh-button" onClick="refresh()">Refresh</button>
+  </div>
+
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
